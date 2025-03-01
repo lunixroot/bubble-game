@@ -42,7 +42,6 @@ function runtimer() {
     }
 }, 1000);
 }
-
 getBubble()
 newhit()
 runtimer();
