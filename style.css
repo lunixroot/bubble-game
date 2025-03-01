@@ -54,9 +54,12 @@ html, body{
 }
 .pbottom{
     width: 100%;
+    padding: 20px 10px;
     height: calc(100% - 13%);
     background-color: rgb(255, 255, 255);
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
     gap: 8px;
 }
@@ -68,4 +71,9 @@ html, body{
     justify-content: center;
     align-items: center;
     background-color: rgb(98, 172, 155);
+}
+
+.bubble:hover{
+    background-color: rgb(54, 109, 97);
+    cursor: pointer;
 }
