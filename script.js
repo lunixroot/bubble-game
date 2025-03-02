@@ -1,4 +1,4 @@
-let timer = 3;
+let timer = 60;
 let score = 0;
 let newHitval = 0;
 function getBubble() {
